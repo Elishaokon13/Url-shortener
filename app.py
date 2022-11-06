@@ -5,7 +5,7 @@ from faunadb import query as q
 from faunadb.client import FaunaClient
 
 app = Flask(__name__)
-client = FaunaClient(secret="", domain="db.us.fauna.com", scheme="https")
+client = FaunaClient(secret="fnAE0nZBw6ACSYVqT_ymCD3Am7ef71e3UYcav0QJ", domain="db.us.fauna.com", scheme="https")
 # there are other options of region to use for your domain
 
 def generate_identifier(n=6):
